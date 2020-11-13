@@ -18,7 +18,7 @@
                <children>
                   <Label layoutX="196.0" layoutY="26.0" text="EZ Password manager" textFill="WHITE">
                      <font>
-                        <Font name="Droid Sans Mono Dotted" size="42.0" />
+                        <Font name="Droid Sans Mono Dotted" size="39.0" />
                      </font>
                   </Label>
                </children></Pane>
@@ -32,6 +32,9 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="124.0" prefWidth="132.0" text="Button" />
+               </children>
             </GridPane>
          </children></Pane>
    </children>
