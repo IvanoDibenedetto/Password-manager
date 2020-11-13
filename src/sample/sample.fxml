@@ -2,8 +2,9 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<GridPane alignment="center" hgap="10" prefHeight="526.0" prefWidth="744.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" prefHeight="614.0" prefWidth="870.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -11,13 +12,27 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <Pane prefHeight="529.0" prefWidth="758.0">
+      <Pane prefHeight="615.0" prefWidth="900.0">
          <children>
-            <VBox prefHeight="526.0" style="-fx-background-color: #c45149;">
+            <Pane prefHeight="102.0" prefWidth="870.0" style="-fx-background-color: #ff9345;">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="190.0" style="-fx-background-color: #ffffff;" text="Button" />
-               </children>
-            </VBox>
+                  <Label layoutX="196.0" layoutY="26.0" text="EZ Password manager" textFill="WHITE">
+                     <font>
+                        <Font name="Droid Sans Mono Dotted" size="42.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <GridPane layoutX="46.0" layoutY="132.0" prefHeight="436.0" prefWidth="779.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
          </children></Pane>
    </children>
 </GridPane>
