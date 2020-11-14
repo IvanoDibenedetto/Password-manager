@@ -1,4 +1,4 @@
-package sample;
+package MainUI;
 
 public class Controller {
 }
