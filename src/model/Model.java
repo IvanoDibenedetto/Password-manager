@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class Model {
 
+
     private String _name;
     private Map<String, String> _dizionario;
 
