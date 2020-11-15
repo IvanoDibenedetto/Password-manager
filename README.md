@@ -1,2 +1,2 @@
 # Password manager
-Simple and secure password manager written in Java
+Simple and secure password manager written in Java (MVC pattern)
